@@ -1,0 +1,14 @@
+
+train: /kaggle/input/multi-model-for-mosquito-my-fyp/VisText-Mosquito A Multimodal Dataset for Mosquito/Water Surface Segmentation/train/images
+val: /kaggle/input/multi-model-for-mosquito-my-fyp/VisText-Mosquito A Multimodal Dataset for Mosquito/Water Surface Segmentation/valid/images
+test: /kaggle/input/multi-model-for-mosquito-my-fyp/VisText-Mosquito A Multimodal Dataset for Mosquito/Water Surface Segmentation/test/images
+
+nc: 2
+names: ['tire_with_water', 'vase_with_water']
+
+roboflow:
+  workspace: bappy-workspace
+  project: breeding-place-u5p3c
+  version: 5
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/bappy-workspace/breeding-place-u5p3c/dataset/5
