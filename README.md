@@ -9,16 +9,21 @@ This repository focuses on **mosquito breeding site detection and segmentation**
 ```
 Mosquito Breeding Sites Detection and Segmentation Using YOLO Architectures
 │
-├── Breeding Place Detection
-│   ├── YOLOv5s
-│   ├── YOLOv8n
-│   └── YOLOv9s
+├── Models_Trained
+│   ├── breeding-place-detection
+│   │   ├── YOLOv5s
+│   │   ├── YOLOv8n
+│   │   └── YOLOv9s
+│   │
+│   └── water-surface-segmentation
+│       ├── Segmentation Model YOLOv11s SIG
+│       └── Segmentation Model YOLOv8x SIG
 │
-├── Segmentation
-│   ├── Segmentation Model YOLOv11s SIG
-│   └── Segmentation Model YOLOv8x SIG
+├── Docs
+│   └── Poster-of-Mosquito-Breeding-Sites-Detection-and-Water-Surface-Segmentation-Project.pdf
 │
 └── 01DataVisualization.ipynb
+
 ```
 
 - **Breeding Place Detection:** Contains YOLO detection models (YOLOv5s, YOLOv8n, YOLOv9s) and their results for detecting mosquito breeding sites.  
