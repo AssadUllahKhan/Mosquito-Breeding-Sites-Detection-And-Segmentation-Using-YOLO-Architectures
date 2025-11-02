@@ -76,8 +76,8 @@ jupyter notebook 01DataVisualization.ipynb
 
 ## Results
 
-- Detection outputs are stored inside each YOLO detection model folder under `Breeding Place Detection`.  
-- Segmentation outputs are stored inside each YOLO segmentation model folder under `Segmentation`.  
+- Detection outputs are stored inside each YOLO detection model folder under `breeding-place-detection`.  
+- Segmentation outputs are stored inside each YOLO segmentation model folder under `water-surface-segmentation`.  
 - The notebook `01DataVisualization.ipynb` allows visualization of images, bounding boxes, and segmentation masks.
 
 ---
